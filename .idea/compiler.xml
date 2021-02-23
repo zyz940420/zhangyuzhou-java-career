@@ -7,14 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pattern" />
         <module name="tools-practice-module" />
-        <module name="redis-practice" />
-        <module name="javaSE" />
-        <module name="data-structure" />
+        <module name="zhangyuzhou-java-career" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="data-structure" target="8" />
+      <module name="javaSE" target="1.5" />
+      <module name="pattern" target="1.5" />
+      <module name="redis-practice" target="8" />
       <module name="spring-retry-module" target="1.8" />
     </bytecodeTargetLevel>
   </component>

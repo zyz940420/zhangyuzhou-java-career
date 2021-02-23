@@ -1,0 +1,39 @@
+*.class
+target/
+.idea/
+logs/
+.settings/
+.amateras
+/target*
+*.log*
+*.jar
+*.war
+*.ear
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/.flattened-pom.xml
+/eps-purchase-common/.flattened-pom.xml
+/eps-purchase-service/.flattened-pom.xml
+/eps-purchase-schedule/.flattened-pom.xml
