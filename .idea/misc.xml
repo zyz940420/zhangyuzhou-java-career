@@ -6,6 +6,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/tools-practice-module/pom.xml" />
+        <option value="$PROJECT_DIR$/pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/data-structure/pom.xml" />
+        <option value="$PROJECT_DIR$/javaSE/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-practice/pom.xml" />
       </list>
     </option>
   </component>

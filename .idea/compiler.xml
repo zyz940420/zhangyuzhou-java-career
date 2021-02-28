@@ -7,21 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pattern" />
         <module name="tools-practice-module" />
         <module name="thread" />
+        <module name="javaSE" />
+        <module name="redis-practice" />
+        <module name="data-structure" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="data-structure" target="8" />
-      <module name="javaSE" target="1.5" />
-      <module name="pattern" target="1.5" />
-      <module name="redis-practice" target="8" />
-      <module name="spring-retry-module" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-retry-module" options="-parameters" />
       <module name="tools-practice-module" options="-parameters" />
     </option>
   </component>
